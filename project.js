@@ -3,8 +3,7 @@ let users = [
     { username: "user1", password: "pass1" },
     { username: "user2", password: "pass2" },
     { username: "amir12@gmail.com", password: "Sakina"},
-    { username: "tushar12@gmail.com", password: "harmita"}
-
+    { username: "tushar12@gmail.com", password: "afia"}
 ];
 
 let posts = [

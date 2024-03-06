@@ -84,4 +84,16 @@ body{
 .register-link p a:hover{
     text-decoration: underline;
 }
+.form-container{
+    text-align: center;
+    padding: 20px;
+}
+.post-container{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+#commentForm{
+    margin-top: 20px;
+}
 
