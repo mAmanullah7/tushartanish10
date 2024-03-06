@@ -7,36 +7,47 @@
     <link rel="stylesheet" href="Project1.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
 
-    <script>src="project.js"</script>
     <div class="wrapper">
-        <form action="">
+        <form id="loginForm"> <!-- Added id to the form -->
             <h1>Login</h1>
             <div class="Input-box">
-                <input type="text" placeholder="Username" required><i class='bx bxs-user'></i>
+                <input type="text" id="username" placeholder="Username" required><i class='bx bxs-user'></i> <!-- Added id to the input -->
                 <!-- input type matlab ki yahan pai text likhna hai aur placeholder-> isme already kuch likha hoga user ko type karne se pahle -->
             </div>
             <div class="Input-box1">
-                <input type="password" placeholder="Password" required><i class='bx bxs-lock-alt'></i>
+                <input type="password" id="password" placeholder="Password" required><i class='bx bxs-lock-alt'></i> <!-- Added id to the input -->
             </div>
             <div class="remember-forgot">
                 <label> <input type="checkbox">Remember Me</label>
-                <a href=" we can paste link here ">Forgot Password </a>
+                <a href="#">Forgot Password</a> <!-- Update link if needed -->
             </div>
             <button type="submit" class="btn">Login</button>
             <div class="register-link">
-                <p>Don't have an account  <a href="#"> Register here</a></p>
+                <p>Don't have an account <a href="#">Register here</a></p> <!-- Update link if needed -->
             </div>
         </form>
-        <!-- <script> function Username(){
-            let Username = document.getElementById("Username").value;
-            alert("Hello, " + Username + "!");
-            return false;
-        }
-         </script> -->
     </div>
+
+     <!-- Comment Section
+     <div class="comment-section">
+        <h2>Comments</h2>
+        <ul id="comments-list">
+            <li>User1: This is a great website!</li>
+            <li>User2: I love the design!</li>
+            <li>User3: Can't wait to see more updates!</li>
+        </ul>
+        <form id="commentForm">
+            <textarea id="commentInput" placeholder="Write your comment..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p class="signin-prompt">Please <a href="#" id="signinLink">sign in</a> to leave a comment.</p>
+    </div>
+</div> -->
+
+    <script src="project.js"></script>
 </body>
 </html>
